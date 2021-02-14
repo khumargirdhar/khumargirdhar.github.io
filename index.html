@@ -135,7 +135,7 @@
 												<li><a href="mailto:khumargirdhar@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 											</ul>
 										</footer>
-									<form method="post" action="#">
+									<form method="post" action="https://script.google.com/macros/s/AKfycbxZlymcgUPxFAYQk2C4HSi_LLVR_RRH5XSlh1Yt/exec">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -149,6 +149,21 @@
 											</div>
 										</div>
 									</form>
+									<script>
+											
+											const scriptURL = 'https://script.google.com/macros/s/AKfycbxZlymcgUPxFAYQk2C4HSi_LLVR_RRH5XSlh1Yt/exec'
+											const form = document.forms['submit-to-google-sheet']
+										  
+											form.addEventListener('submit', e => {
+											  e.preventDefault()
+											  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+												.then(response => console.log('Submitted successfully! Thank you. I will get back to you soon.', response))
+												.catch(error => console.error('Error!', error.message))
+											})
+											
+
+
+										  	</script>	
 								</div>
 							</section>
 
