@@ -39,6 +39,8 @@ ol, ul {
 
 img.icon {
 	border-radius: 25%;
+	width= auto;
+	height= auto;
 	margin: 1.5em;
 	background-color: white;
 	border: 1px solid rgb(166, 166, 166);
