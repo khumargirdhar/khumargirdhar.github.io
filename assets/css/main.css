@@ -2427,7 +2427,6 @@ input, select, textarea {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
-  background-color: lightgreen;
   padding: 10px;
 }
 
