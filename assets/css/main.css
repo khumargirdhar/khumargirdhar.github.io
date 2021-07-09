@@ -2391,6 +2391,8 @@ input, select, textarea {
 			/*display: inline-block;*/
 			display: -ms-grid;
 			display: grid;
+			-ms-grid-columns: 1fr 1fr 1fr;
+			grid-template-columns: 1fr 1fr 1fr;
 			margin: 0 0 1.6875em 0;
 			padding: 0.35em 0 0 3.5em;
 			position: relative;
