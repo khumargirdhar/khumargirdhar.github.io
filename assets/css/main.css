@@ -2423,10 +2423,18 @@ input, select, textarea {
 				width: 2.5em;
 			}
 
-div.grid-container {
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+grid-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
 	display: grid;
-	grid-template-columns: auto auto auto auto auto;
-	background-color: #2196F3;
+	grid-template-columns: auto auto auto;
 	text-align: center;
 }
 
