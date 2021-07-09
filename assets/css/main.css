@@ -2389,11 +2389,8 @@ input, select, textarea {
 		ul.feature-icons li {
 			text-decoration: none;
 			/*display: inline-block;*/
-			display: -webkit-box;
-			display: -ms-flexbox;
-			display: flex;
-			-ms-flex-wrap: wrap;
-			flex-wrap: wrap;
+			display: -ms-grid;
+			display: grid;
 			margin: 0 0 1.6875em 0;
 			padding: 0.35em 0 0 3.5em;
 			position: relative;
@@ -2405,11 +2402,7 @@ input, select, textarea {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				/*display: inline-block;*/
-				display: -webkit-box;
-				display: -ms-flexbox;
-				display: flex;
-				-ms-flex-wrap: wrap;
-				flex-wrap: wrap;
+				display: grid;
 				font-style: normal;
 				font-variant: normal;
 				text-rendering: auto;
@@ -2424,11 +2417,7 @@ input, select, textarea {
 				border-radius: 100%;
 				color: #ffffff;
 				/*display: block;*/
-				display: -webkit-box;
-			display: -ms-flexbox;
-			display: flex;
-			-ms-flex-wrap: wrap;
-			flex-wrap: wrap;
+				display: grid;
 				height: 2.5em;
 				left: 0;
 				line-height: 2.5em;
