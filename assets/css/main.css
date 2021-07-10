@@ -1466,7 +1466,7 @@ input, select, textarea {
 						}
 			.one {
 				<div class="image main" data-position="center">
-					<img style="width: '2160';" class = "banner" src="images/small-banner.png" alt="" />
+					<img style="width: '736';" class = "banner" src="images/small-banner.png" alt="" />
 				</div>
 			}
 
@@ -1717,7 +1717,7 @@ input, select, textarea {
 			
 			.one {
 				<div class="image main" data-position="center">
-					<img style="width: '2160';" class = "banner" src="images/small-banner.png" alt="" />
+					<img style="width: '480';" class = "banner" src="images/small-banner.png" alt="" />
 				</div>
 			}
 
