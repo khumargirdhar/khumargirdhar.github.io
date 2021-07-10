@@ -46,7 +46,7 @@ img.banner {
 	width: 100%;
   	height: auto;
   	/* Magic! */
-  	max-width: 50vw;
+  	max-width: 100vw;
 }
 
 blockquote, q {
