@@ -1464,10 +1464,8 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 2.5em;
 						}
-			.one {
-				<div class="image main" data-position="center">
-					<img style="width: '736';" class = "banner" src="images/small-banner.png" alt="" />
-				</div>
+			.image main {
+				content:url("images/small-banner.png");
 			}
 
 		}
@@ -1715,10 +1713,8 @@ input, select, textarea {
 							padding-top: 2.5em;
 						}
 			
-			.one {
-				<div class="image main" data-position="center">
-					<img style="width: '480';" class = "banner" src="images/small-banner.png" alt="" />
-				</div>
+			.image main {
+				content:url("images/small-banner.png");
 			}
 
 		}
