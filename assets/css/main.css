@@ -1223,6 +1223,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+			
+			.banner {
+				content:url("images/small-banner.png");
+			}
 
 			.row {
 				display: flex;
@@ -1464,14 +1468,15 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 2.5em;
 						}
-			.image main {
-				content:url("images/small-banner.png");
-			}
 
 		}
 
 		@media screen and (max-width: 480px) {
 
+			.banner {
+				content:url("images/small-banner.png");
+			}
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1712,11 +1717,6 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 2.5em;
 						}
-			
-			.image main {
-				content:url("images/small-banner.png");
-			}
-
 		}
 
 /* Container */
