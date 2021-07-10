@@ -2435,7 +2435,7 @@ div.grid-container {
 	background-color: rgba(255, 255, 255, 0.8);
 	display: grid;
 	grid-template-columns: auto auto auto;
-	text-align: justify;
+	text-align: center;
 }
 
 /* Icons */
