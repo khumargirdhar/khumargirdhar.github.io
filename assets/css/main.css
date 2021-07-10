@@ -43,8 +43,8 @@ img.icon {
 img.banner {
 	/*max-width: 100%;
    	height: auto;*/
-	width: 100vw;
-	height: 100vh;
+	width: auto;
+	height: auto;
 }
 
 blockquote, q {
@@ -1724,9 +1724,9 @@ input, select, textarea {
 						}
 		}
 
-		@media (min-width:550px) {
+		@media screen (min-width:550px) {
 			.banner {
-				width: 70%;
+				width: 50%;
 				height: auto;
 			}
 		}
