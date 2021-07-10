@@ -1224,10 +1224,11 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 			
+			/*
 			.banner {
 				content:url("images/small-banner.png");
 			}
-
+			*/
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1473,9 +1474,11 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			/*
 			.banner {
 				content:url("images/small-banner.png");
 			}
+			*/
 			
 			.row {
 				display: flex;
