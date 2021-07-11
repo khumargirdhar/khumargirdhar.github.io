@@ -45,6 +45,7 @@ img.banner {
    	height: auto;*/
 	width: auto;
 	height: auto;
+	object-fit: cover;
 }
 
 blockquote, q {
