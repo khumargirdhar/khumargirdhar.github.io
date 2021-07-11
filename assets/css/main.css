@@ -2873,7 +2873,7 @@ div.grid-container {
 
 		#main > section > .container {
 			/*padding: 6em 0 4em 0;*/
-			*padding: 0 0 4em 0;
+			*padding: 3em 0 4em 0;
 		}
 
 		#main > section:first-child {
@@ -2948,7 +2948,7 @@ div.grid-container {
 
 			#main > section > .container {
 				/*padding: 4em 0 2em 0;*/
-				padding: 0 0 2em 0;
+				padding: 2em 0 2em 0;
 			}
 
 	}
