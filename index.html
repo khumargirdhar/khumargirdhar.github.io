@@ -54,7 +54,15 @@
 						<!-- One -->
 							<section id="one">
 								<div class="image main" data-position="center">
-									<img fstyle="width: '2160';" class = "banner" src="images/banner.png" alt="" />
+									<picture>
+									   <source 
+									      media="(min-width: 650px)"
+									      srcset="images/small-banner.png">
+									   <source 
+									      media="(min-width: 465px)"
+									      srcset="images/small-banner.png">
+									   <img fstyle="width: '2160';" class = "banner" src="images/banner.png" alt="" />
+									</picture>
 								</div>
 								<div class="container">
 									<header class="major">
