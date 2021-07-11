@@ -40,13 +40,13 @@ img.icon {
 	border: 1px solid rgb(166, 166, 166);
 }
 
+/*
 img.banner {
-	/*max-width: 100%;
-   	height: auto;*/
 	width: 100%;
 	height: auto;
 	object-fit: cover;
 }
+*/
 
 blockquote, q {
 	quotes: none;
